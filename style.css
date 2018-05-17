@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Merriwheather";
+    src: url('assets/fonts/merriweather.otf');
+}
+
+body {
+    font-family: Merriwheather;
+    overflow-x : hidden;
+}
+
+.header-bg{
+    z-index: 10000000;
+    background-color: rgb(0, 60, 90);
+    padding: 2em;
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
+}
+
+h1{
+    margin: 0;
+    padding-top: 0;
+}
+
+.main-header-ul{
+    margin: 0;
+    padding: 0;
+    padding-top: 12px;
+    font-size: 1em;
+    list-style-type: none;
+}
+
+.active{
+    color: white;
+}
+
+.main-header-phone{
+    font-size: 1.5em;
+}
+
+.main-sect1{
+    margin-top: 3.5em;
+    background: url('assets/media/background.png') center no-repeat;
+    height: 708px;
+    font-size: 2em;
+}
+
+.main-sect-para{
+    padding-top: 100px;
+    font-size: 2em;
+}
+
+.main-sect{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.sect-input{
+    border-radius: 30px;    
+}
+
+.taille-icone{
+    font-size: 30px;
+}
+
+.footer-nav{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.footer-nav-ul{
+    list-style-type: none;
+    padding-top: 13px;
+    margin: 0;
+}
+
+.footer-nav-div{
+    border-bottom: solid grey 1px;
+    padding-bottom: 1em;
+}
+
+.footer-nav-q{
+    padding-top: 1em;
+}
+
+
+
+.bg-orange{
+    background-color: rgb(231, 110, 51);
+}
+
+.bg-bleu-clair{
+    background-color: rgb(234, 242, 246)
+}
+
+.bg-bleu-fonce{
+    background-color: rgb(0, 60, 90); 
+}
+
+.text-white{
+    color: white;
+}
+
+.text-blue{
+    color: rgb(2, 132, 197);
+}
